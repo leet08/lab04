@@ -15,7 +15,7 @@ class Donut {
     // Configs
     svgW = 360;
     svgH = 360;
-    gMargin = {top: 50, right: 25, bottom: 75, left: 75};
+    gMargin = {top: 150, right: 125, bottom: 175, left: 175};
     gW = this.svgW - (this.gMargin.right + this.gMargin.left);
     gH = this.svgH - (this.gMargin.top + this.gMargin.bottom);
     radius = Math.min(360, 360) / 3;  // donut radius
