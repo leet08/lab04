@@ -74,7 +74,7 @@ class Scatter {
         vis.yAxisG.append('text')
             .attr('class', 'label labelY')
             .style('transform', `rotate(-90deg) translate(-${vis.gH / 2}px, -30px)`)
-            .text('HW1 Hours');
+            .text('HW1 Hours');  
 
         // Now wrangle
         vis.wrangle();
